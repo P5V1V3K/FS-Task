@@ -1,0 +1,50 @@
+.container{
+    display: grid;
+    gap: 2px;
+    height: 90vh;
+    width: 80vw;
+    border: 2px solid;
+    padding: 2px;
+}
+
+.timetable{
+    grid-area: 1 / 1 / 1 / 7;
+    font-weight: bold;
+}
+
+.hours{
+    grid-area: 2 / 1 / 8 / 1;
+    font-weight: bold;
+}
+
+.lunch{
+    grid-area: 5 / 2 / 5 / 7;
+    font-weight: bold;
+}
+
+.day{
+    font-weight: bold;
+}
+
+.project{
+    grid-area: 6 / 6 / 7 / 6;
+}
+
+.item{
+    border: 2px solid;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.item:hover{
+    background-color: antiquewhite;
+    font-size: 22px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
